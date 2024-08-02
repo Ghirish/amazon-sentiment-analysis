@@ -1,0 +1,20 @@
+amazon-sentiment-analysis/
+│
+├── data/
+│   ├── product_urls.csv                # Dataset of product URLs from Kaggle
+│   └── cleaned_amazon_reviews.csv      # Your cleaned data file
+│
+├── notebooks/
+│   └── web_scraping.ipynb              # Jupyter Notebook for web scraping
+│
+├── src/
+│   ├── data_cleaning.py                # Python script for cleaning data
+│   ├── sentiment_analysis.py           # Python script for sentiment analysis
+│   └── app.py                          # Dash app script for visualization
+│
+├── images/
+│   └── sample_dashboard.png            # Screenshot of the dashboard 
+│
+├── requirements.txt                    # Python dependencies
+├── README.md                           # README file
+└── LICENSE          
